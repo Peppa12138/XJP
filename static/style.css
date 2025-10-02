@@ -1,4 +1,4 @@
-/* 习思想AI智能问答系统 - 样式文件 */
+/* 习思想AI智能问答系统 - 中国红主题样式文件 */
 
 * {
     margin: 0;
@@ -8,7 +8,11 @@
 
 body {
     font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: url('/static/image.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 100vh;
     color: #333;
     line-height: 1.6;
@@ -28,22 +32,24 @@ body {
     text-align: center;
     margin-bottom: 30px;
     padding: 30px 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 248, 220, 0.95);
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(220, 20, 60, 0.2);
     backdrop-filter: blur(10px);
+    border: 2px solid #ffd700;
 }
 
 .title {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #dc143c;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+    text-shadow: 2px 2px 4px rgba(220, 20, 60, 0.3);
 }
 
 .title-icon {
@@ -67,7 +73,7 @@ body {
     display: block;
     font-size: 1rem;
     font-weight: 400;
-    color: #7f8c8d;
+    color: #b8860b;
     margin-top: 10px;
     width: 100%;
 }
@@ -81,15 +87,16 @@ body {
 }
 
 .chat-container {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 248, 220, 0.95);
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(220, 20, 60, 0.2);
     backdrop-filter: blur(10px);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     height: 70vh;
     min-height: 600px;
+    border: 2px solid #ffd700;
 }
 
 .chat-messages {
@@ -109,12 +116,12 @@ body {
 }
 
 .chat-messages::-webkit-scrollbar-thumb {
-    background: #c1c1c1;
+    background: #dc143c;
     border-radius: 3px;
 }
 
 .chat-messages::-webkit-scrollbar-thumb:hover {
-    background: #a8a8a8;
+    background: #b22222;
 }
 
 .message {
@@ -152,13 +159,13 @@ body {
 }
 
 .system-avatar {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #dc143c, #8b0000);
     color: white;
 }
 
 .user-avatar {
-    background: linear-gradient(135deg, #f093fb, #f5576c);
-    color: white;
+    background: linear-gradient(135deg, #ffd700, #daa520);
+    color: #8b0000;
 }
 
 .message-bubble {
@@ -170,13 +177,13 @@ body {
 }
 
 .system-bubble {
-    background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
-    border: 1px solid #e1f5fe;
+    background: linear-gradient(135deg, #ffe4e1, #ffeaa7);
+    border: 1px solid #dc143c;
 }
 
 .user-bubble {
-    background: linear-gradient(135deg, #fff3e0, #fce4ec);
-    border: 1px solid #ffecb3;
+    background: linear-gradient(135deg, #fff8dc, #f0e68c);
+    border: 1px solid #daa520;
 }
 
 .user-message .message-content {
@@ -218,8 +225,8 @@ body {
 }
 
 #messageInput:focus {
-    border-color: #667eea;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    border-color: #dc143c;
+    box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.1);
 }
 
 #messageInput:disabled {
@@ -231,7 +238,7 @@ body {
 
 #sendButton {
     padding: 15px 25px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #dc143c, #8b0000);
     color: white;
     border: none;
     border-radius: 25px;
@@ -247,7 +254,7 @@ body {
 
 #sendButton:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 5px 15px rgba(220, 20, 60, 0.4);
 }
 
 #sendButton:disabled {
@@ -267,8 +274,8 @@ body {
 
 .tip {
     font-size: 0.9rem;
-    color: #666;
-    background: rgba(102, 126, 234, 0.1);
+    color: #8b0000;
+    background: rgba(220, 20, 60, 0.1);
     padding: 8px 15px;
     border-radius: 15px;
     display: inline-block;
@@ -288,12 +295,12 @@ body {
 .section-title {
     font-size: 1.8rem;
     font-weight: 600;
-    color: white;
+    color: #ffd700;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .section-icon {
@@ -307,10 +314,10 @@ body {
 }
 
 .news-item {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 248, 220, 0.95);
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 25px rgba(220, 20, 60, 0.15);
     transition: all 0.3s ease;
     cursor: pointer;
     backdrop-filter: blur(10px);
@@ -319,11 +326,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid #ffd700;
 }
 
 .news-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 35px rgba(220, 20, 60, 0.25);
+    border-color: #dc143c;
 }
 
 .news-content {
@@ -333,7 +342,7 @@ body {
 .news-title {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #2c3e50;
+    color: #8b0000;
     margin-bottom: 8px;
     line-height: 1.4;
     display: -webkit-box;
