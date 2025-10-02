@@ -96,7 +96,43 @@ NEWS_DATA = [
         "url": "https://news.cctv.com/2025/04/30/ARTIlHS2FUTlWKEQF7DnGnX3250430.shtml",
         "description": "央视网报道数字中国建设成就",
         "image": "https://p2.img.cctvpic.com/photoworkspace/2025/04/30/2025043016223456789.jpg"
-    }
+    },
+    {
+        "title": "数字中国蓬勃脉动！9图带你“数”览最新成就",
+        "url": "https://jingji.cctv.com/2025/08/16/ARTIX0GLOeRiYlNwUKwgsVzL250815.shtml",
+        "description": "央视网报道数字中国建设取得显著成就",
+        "image": "https://p2.img.cctvpic.com/photoworkspace/2025/04/30/2025043016223456789.jpg"
+    },
+    {
+        "title": "《数字中国建设2025年行动方案》来了",
+        "url": "https://news.cctv.com/2025/05/16/ARTI4ArRE4UJ0sAmWX4nSEPi250516.shtml",
+        "description": "央视网报道数字中国建设2025年行动方案",
+        "image": "https://p2.img.cctvpic.com/photoworkspace/2025/04/30/2025043016223456789.jpg"
+    },
+    {
+        "title": "庆祝中华人民共和国成立76周年招待会在京举行 习近平发表重要讲话",
+        "url": "https://tv.cctv.com/2025/09/30/VIDEpjmtERj6dbTjcILqvPaU250930.shtml?spm=C96370.PPDB2vhvSivD.ERPyWJCsPwT9.1",
+        "description": "央视网报道中华人民共和国成立76周年习近平发表重要讲话",
+        "image": "https://p2.img.cctvpic.com/photoworkspace/2025/04/30/2025043016223456789.jpg"
+    },
+    {
+        "title": "听！380秒百姓畅聊“十四五”这五年新变化……",
+        "url": "https://news.cctv.com/2025/10/02/ARTIo3VS8MZ1jhqLTey01iCk251002.shtml?spm=C96370.PPDB2vhvSivD.ERPyWJCsPwT9.14",
+        "description": "央视网报道“十四五”收官之年",
+        "image": "https://p2.img.cctvpic.com/photoworkspace/2025/04/30/2025043016223456789.jpg"
+    },
+    {
+        "title": "在今年国庆招待会上，习近平重点谈到这两件大事",
+        "url": "https://news.cctv.com/2025/10/01/ARTITYwoviKWSyWHzEGLtLEL251001.shtml?spm=C96370.PPDB2vhvSivD.EVRLyOeY7a6a.1",
+        "description": "央视网报道习近平国庆招待会上谈到的两件大事",
+        "image": "https://p2.img.cctvpic.com/photoworkspace/2025/04/30/2025043016223456789.jpg"
+    },
+    {
+        "title": "奔向更美好生活 城市更新 生活焕新",
+        "url": "https://tv.cctv.com/2025/10/01/VIDEpMaCov2xYHZHqMEMo3fB251001.shtml?spm=C96370.PPDB2vhvSivD.EGjfbNDqwSOr.5",
+        "description": "焦点访谈20251001 奔向更美好生活 城市更新 生活焕新",
+        "image": "https://p2.img.cctvpic.com/photoworkspace/2025/04/30/2025043016223456789.jpg"
+    },
 ]
 
 async def call_ai_api(message: str) -> str:
